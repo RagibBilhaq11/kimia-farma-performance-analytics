@@ -45,7 +45,7 @@ Hasilnya berupa tabel analisa di BigQuery dan dashboard interaktif di Looker Stu
 ## Insight Utama
 
 ### 1. Pendapatan tahunan stabil, tidak ada pertumbuhan
-- Nett sales per tahun berada di kisaran Rp 80 miliar: sekitar 80,4B (2020), 80,0B (2021), 80,6B (2022), dan 80,1B (2023).
+- Nett sales per tahun berada di kisaran Rp 80 miliar: sekitar 80,4M (2020), 80,0M (2021), 80,6M (2022), dan 80,1M (2023).
 - Selisih tahun tertinggi dan terendah hanya sekitar 0,7%. Pendapatan praktis datar selama 4 tahun, dengan puncak di 2022.
 - Artinya bisnis stabil tetapi belum tumbuh.
 
@@ -66,3 +66,11 @@ Hasilnya berupa tabel analisa di BigQuery dan dashboard interaktif di Looker Stu
 - Lima cabang rating tertinggi: Pematangsiantar (4,83), Jambi (4,77), Batam (4,73), Sorong (4,73), Cikampek (4,72).
 - Rating transaksi kelimanya 3,99-4,02, atau sekitar 0,7-0,8 poin di bawah rating cabangnya, dan setara rata-rata keseluruhan (4,0).
 - Tiga dari lima berformat Klinik-Apotek-Laboratorium dan empat dari lima berada di luar Jawa Barat. Dugaan awal: layanan yang lebih kompleks membuat pengalaman per transaksi kurang konsisten (perlu dikonfirmasi dengan data lain).
+
+## Rekomendasi
+
+1. **Kurangi ketergantungan pada Jawa Barat.** Satu provinsi menyumbang ±30% penjualan. Gali potensi provinsi nomor 2-5 (Sumatera Utara, Jawa Tengah, Jawa Timur) lewat tambahan cabang atau promosi, karena risiko bisnis tinggi bila Jawa Barat melemah.
+2. **Cari sumber pertumbuhan karena pendapatan datar.** Evaluasi kampanye tahun 2022 (puncak) dan analisis apa yang membuatnya naik, lalu ulangi di tahun berikutnya.
+3. **Jaga ketersediaan obat berharga tinggi.** Karena penjualan bergantung pada produk > Rp 300.000, pastikan stok kategori terbesar (R06, M01AE, N05C, N02BE/B) aman di provinsi dengan transaksi tinggi (gunakan data `kf_inventory`).
+4. **Kendalikan diskon pada produk bermargin rendah.** Diskon pada obat dengan laba 10-15% menggerus profit paling cepat.
+5. **Dorong provinsi dengan profit rendah.** Evaluasi provinsi di ujung bawah peta (profit mulai dari Rp 0,57 miliar) apakah masalahnya jumlah cabang, lokasi, atau ketersediaan produk.
