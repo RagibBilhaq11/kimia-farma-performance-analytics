@@ -71,6 +71,5 @@ Hasilnya berupa tabel analisa di BigQuery dan dashboard interaktif di Looker Stu
 
 1. **Kurangi ketergantungan pada Jawa Barat.** Satu provinsi menyumbang ±30% penjualan. Gali potensi provinsi nomor 2-5 (Sumatera Utara, Jawa Tengah, Jawa Timur) lewat tambahan cabang atau promosi, karena risiko bisnis tinggi bila Jawa Barat melemah.
 2. **Cari sumber pertumbuhan karena pendapatan datar.** Evaluasi kampanye tahun 2022 (puncak) dan analisis apa yang membuatnya naik, lalu ulangi di tahun berikutnya.
-3. **Jaga ketersediaan obat berharga tinggi.** Karena penjualan bergantung pada produk > Rp 300.000, pastikan stok kategori terbesar (R06, M01AE, N05C, N02BE/B) aman di provinsi dengan transaksi tinggi (gunakan data `kf_inventory`).
-4. **Kendalikan diskon pada produk bermargin rendah.** Diskon pada obat dengan laba 10-15% menggerus profit paling cepat.
-5. **Dorong provinsi dengan profit rendah.** Evaluasi provinsi di ujung bawah peta (profit mulai dari Rp 0,57 miliar) apakah masalahnya jumlah cabang, lokasi, atau ketersediaan produk.
+3. **Jaga ketersediaan obat berharga tinggi.** Karena penjualan bergantung pada produk > Rp 300.000, pastikan stok kategori terbesar (R06, M01AE, N05C, N02BE/B) aman di provinsi dengan transaksi tinggi.
+4. **Dorong provinsi dengan profit rendah.** Evaluasi provinsi di ujung bawah peta (profit mulai dari Rp 0,57 miliar) apakah masalahnya jumlah cabang, lokasi, atau ketersediaan produk.
