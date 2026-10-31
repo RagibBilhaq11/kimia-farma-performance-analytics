@@ -20,8 +20,7 @@ WITH base AS (
   LEFT JOIN `rakamin-kf-analytics-510903.kimia_farma.kf_kantor_cabang` k
     ON t.branch_id = k.branch_id
   LEFT JOIN `rakamin-kf-analytics-510903.kimia_farma.kf_product` p
-    ON t.product_id = p.product_id
-),
+    ON t.product_id = p.product_id),
 laba AS (
   SELECT
     *,
@@ -33,8 +32,7 @@ laba AS (
       WHEN actual_price <= 500000 THEN 0.25
       ELSE 0.30
     END AS persentase_gross_laba
-  FROM base
-)
+  FROM base)
 SELECT
   transaction_id,
   date,
